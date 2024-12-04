@@ -34,10 +34,8 @@ for lines in file:
                             else: line=line+lines[i]
                         else: line=line+lines[i]
                     else: line=line+lines[i]
-                else:
-                    line=line+lines[i]
-            else:
-                line=line+lines[i]
+                else: line=line+lines[i]
+            else: line=line+lines[i]
         if dont:
             if lines[i] == "d":
                 if lines[i+1] == "o":
